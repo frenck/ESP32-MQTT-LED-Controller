@@ -12,6 +12,10 @@
 #define WIFI_PASSWORD "WiFi password"
 #define WIFI_HOSTNAME "ledstrip"
 
+// OTA setup
+const uint16_t OTA_PORT = 8266;
+const char *OTA_PASSWORD = "ota password";
+
 // MQTT Server information
 #define MQTT_HOST "192.168.1.2"
 #define MQTT_USERNAME "MQTT username"

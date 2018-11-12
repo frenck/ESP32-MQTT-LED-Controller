@@ -8,6 +8,7 @@
 
 #include "configuration.h"
 #include "version.h"
+#include "ota.h"
 
 #include <map>
 #include <string>
