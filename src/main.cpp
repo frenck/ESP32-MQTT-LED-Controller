@@ -210,6 +210,8 @@ void setup()
     Serial.println("LED Controller");
     Serial.printf("Version %s\n\n", VERSION);
 
+    setupOTA(WIFI_HOSTNAME, OTA_PORT, OTA_PASSWORD);
+
     // Initialize EEPROM
     if (!EEPROM.begin(512)) {
         Serial.println("Failed to initialise EEPROM");
